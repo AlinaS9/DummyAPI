@@ -104,8 +104,14 @@ owner: object(User Preview)
 ## Майнд-карта
 Данная МК представляет собой набор тестов для тестирования объекта **Post**. Подробная проверка расписана для **Get List** и **Create Post**.
 ![Alt-текст](https://drive.google.com/file/d/1oGhnCm8GYeJ_g8eB6w2sIQ0BO_ieOCCo/view?usp=drive_link)
-Также майнд-карту можно [скачать]()
+
+Также майнд-карту можно [скачать](https://github.com/AlinaS9/DummyAPI/blob/main/Dummy%20API.xmind)
 
 ## Коллекции POSTMAN
+На основе майнд-карты были созданы коллекции в POSTMAN с соответствующими запросами. [Ссылка](https://github.com/AlinaS9/DummyAPI/blob/main/DummyAPI.postman_collection.json) на коллекции.
+
+Также было создано окружение с переменными. Окружение можно посмотреть [тут](https://github.com/AlinaS9/DummyAPI/blob/main/Dummy%20API.postman_environment.json).
 
 ## Автотесты
+Для объекта **Post** созданы автотесты для следующих запросов: Get List, Create Post, Get Post by ID, Update Post, Delete Post by ID. Автотесты включают в себя проверки на статус-код ответа, время ответа сервера, соответствие ключей и значений.
+Для запуска автотеста нужно, чтобы все запросы были выбраны и стояли в следующем порядке: Get List, Create Post, Get Post by ID, Update Post, Delete Post by ID.
