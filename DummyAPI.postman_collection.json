@@ -1,0 +1,1480 @@
+{
+	"info": {
+		"_postman_id": "18477a75-d07c-4b13-bbcd-f5aae533a67a",
+		"name": "DummyAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45888175"
+	},
+	"item": [
+		{
+			"name": "GetList",
+			"item": [
+				{
+					"name": "GetList (GET)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/post",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetList (POST)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/post",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetList (limit=4)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/post?limit=4",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetList (limit=5)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/post?limit=5",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetList (limit=50)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/post?limit=50",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "50"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetList (limit=51)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/post?limit=51",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "51"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetList (limit=Abcde)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/post?limit=Abcde",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "Abcde"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetList (no params)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/post",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetList (page=0)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/post?page=0",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetList (page=1)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/post?page=1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetList (page=999)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/post?page=999",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "999"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetList (page=1000)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/post?page=1000",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetList (page=Abcde)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/post?page=Abcde",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "Abcde"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetList (created=0)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/post?created=0",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetList (created=1)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/post?created=1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetList (created=2)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/post?created=2",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetList (created=Abcde)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/post?created=Abcde",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "Abcde"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CreatePost",
+			"item": [
+				{
+					"name": "Create Post (POST)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"\",\r\n    \"likes\": 10,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (GET)",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"\",\r\n    \"likes\": 10,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (text: latin)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Beautiful world\",\r\n    \"image\": \"\",\r\n    \"likes\": 10,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (без строки text)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"\",\r\n    \"likes\": 10,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (text: \"\")",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"\",\r\n    \"image\": \"\",\r\n    \"likes\": 10,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (text: 5 символов)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"\",\r\n    \"likes\": 10,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (text: 6 символов)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello1\",\r\n    \"image\": \"\",\r\n    \"likes\": 10,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (text: 50 символов)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"snwcgigllchysrrttmnnpeglfvnhymgdkmruefujogpvzmbxuf\",\r\n    \"image\": \"\",\r\n    \"likes\": 10,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (text: 51 символ)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"snwcgigllchysrrttmnnpeglfvnhymgdkmruefujogpvzmbxufa\",\r\n    \"image\": \"\",\r\n    \"likes\": 10,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (text: number)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": 123456,\r\n    \"image\": \"\",\r\n    \"likes\": 10,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (text: boolean)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": true,\r\n    \"image\": \"\",\r\n    \"likes\": 10,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (text: array)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": [\"хлеб\", \"батон\", \"молоко\", \"кабачок\"],\r\n    \"image\": \"\",\r\n    \"likes\": 10,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (image: url)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"likes\": 10,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (без строки Image)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Beautiful world\",\r\n    \"likes\": 10,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (image: \"\")",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"\",\r\n    \"likes\": 10,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (image: number)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": 23,\r\n    \"likes\": 10,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (image: boolean)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": true,\r\n    \"likes\": 10,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (image: array)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": [\"photo.ru\", \"myphoto.ru\"],\r\n    \"likes\": 10,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (likes: number)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"likes\": 1,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (без строки likes)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (likes: \"\")",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"likes\": \"\",\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (likes: \"строка 1\")",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"likes\": \"строка 1\",\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (likes: boolean)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"likes\": true,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (likes: array)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"likes\": [1, 12],\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (tags: array)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"likes\": 12,\r\n    \"tags\": [\"строка 1\",\"123\",\"строка 3\"],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (без строки tags)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"likes\": 12,\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (tags: [])",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"likes\": 12,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (tags: number)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"likes\": 12,\r\n    \"tags\": 23,\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (tags: string)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"likes\": 12,\r\n    \"tags\": \"строка 1\",\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (tags: boolean)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"likes\": 12,\r\n    \"tags\": true,\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (owner: существующий id)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"likes\": 12,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7caba036b3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (owner: \"\")",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"likes\": 12,\r\n    \"tags\": [],\r\n    \"owner\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (без строки owner)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"likes\": 12,\r\n    \"tags\": []\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (owner: несуществующий id)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"likes\": 12,\r\n    \"tags\": [],\r\n    \"owner\": \"6809f77090817d7cab00000\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (owner: boolean)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"likes\": 12,\r\n    \"tags\": [],\r\n    \"owner\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (owner: number)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"likes\": 12,\r\n    \"tags\": [],\r\n    \"owner\": 2345\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (owner: array)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Hello\",\r\n    \"image\": \"myphoto.ru\",\r\n    \"likes\": 12,\r\n    \"tags\": [],\r\n    \"owner\": [123, \"строка 1\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/post/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GetList (created=2)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post?created=2",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "created",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetList (limit=Abcde)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/post?limit=Abcde",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "Abcde"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "key",
+				"value": "app-id",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "{{app-id}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
