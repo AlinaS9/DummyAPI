@@ -114,6 +114,5 @@ owner: object(User Preview)
 
 ## Автотесты
 Для объекта **Post** созданы автотесты для следующих запросов: Get List, Create Post, Get Post by ID, Update Post, Delete Post by ID. 
-
 Автотесты включают в себя проверки на статус-код ответа, время ответа сервера, соответствие ключей и значений.
 Для запуска автотеста нужно, чтобы все запросы были выбраны и стояли в следующем порядке: Get List, Create Post, Get Post by ID, Update Post, Delete Post by ID.
